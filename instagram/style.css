@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 body {
     background-color: #fafafa;
     display: flex;
@@ -13,7 +12,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -22,43 +20,33 @@ body {
     max-width: 1000px;
 }
 
-/* Левая часть (изображение телефонов) */
 .left {
     flex: 0.5;
     display: flex;
     justify-content: center;
 }
 .container {
-    position: relative; /* Позволяет позиционировать дочерние элементы относительно этого контейнера */
+    position: relative; 
 }
 
 .phone-mockup {
-    width: 450px;
+    width: 470px;
     height: 650px;
     margin-left: 100px;
-    position: relative; /* Устанавливаем элемент как относительно позиционированный */
+    position: relative; 
 }
 
 .first-photo {
-    width: 247px;  /* Настроить размер картинки */
+    width: 260px;  
     height: 560px;
-    position: absolute; /* Наложим картинку */
-    top: 0; /* Ставим сверху */
-    left: 50%; /* Центрируем по горизонтали */
-    transform: translateX(-102%); /* Центрируем по горизонтали */
-    z-index: 1; /* Задаем слой, чтобы .first-photo была поверх */
+    position: absolute; 
+    top: 0; /* сверху */
+    left: 50%; /* по горизонтали */
+    transform: translateX(-94%); 
+    z-index: 1; /* чтобы .first-photo была поверх */
     margin-top: 25px;
 }
 
-
-
-
-.phones {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Правая часть (форма входа) */
 .right {
     display: flex;
     flex-direction: column;
@@ -69,21 +57,22 @@ body {
 
 .login-box {
     width: 350px;
+    height: 409px;
     
     background: white;
     border: 1px solid #dbdbdb;
     padding: 20px;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 15px;
 
 }
 
-.logo {
-    font-family: 'Great Vibes';
-    font-size: 40px;
-    margin-bottom: 20px;
+.logo{
+    width: 175px;
+    height: 51px;
+    margin-left: 45px;
 }
-
 form input {
     width: 100%;
     padding: 10px;
@@ -92,6 +81,7 @@ form input {
     border-radius: 3px;
     background: #fafafa;
     font-size: 14px;
+
 }
 
 .login-btn {
@@ -104,6 +94,7 @@ form input {
     font-weight: bold;
     margin-top: 10px;
 }
+
 
 .separator {
     display: flex;
@@ -132,7 +123,7 @@ form input {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 15px;
     color: #385185;
     font-weight: bold;
     margin-top: 10px;
@@ -145,10 +136,13 @@ form input {
 }
 
 .forgot-password {
-    font-size: 12px;
+    font-size: 15px;
     color: #00376b;
-    margin-top: 10px;
+    margin-top: 15px;
     text-decoration: none;
+}
+.box{
+    margin-top: 50px;
 }
 
 .signup-box {
@@ -165,8 +159,8 @@ form input {
 }
 
 .get-app {
-    text-align: center; /* Центрируем текст */
-    margin-top: 400px; /* Отступ сверху */
+    text-align: center; 
+    margin-top: 400px; 
     transform: translateX(-310px);
     
     
@@ -180,12 +174,12 @@ form input {
 
 .app-links {
     display: flex;
-    justify-content: center; /* Центрируем кнопки */
+    justify-content: center; 
     gap: 10px; /* Расстояние между кнопками */
 }
 
 .app-links img {
-    height: 40px; /* Высота изображений */
+    height: 40px; 
 }
 
 
