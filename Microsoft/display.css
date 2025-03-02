@@ -132,7 +132,9 @@ body{
     top : 936px;
     left: 0px;
     background-color: rgba(224, 100, 125,.2);
+
 }
+
 #first-card{
     position: relative;
     top : 20px; 
@@ -189,7 +191,7 @@ body{
 }
 #second-card #sadtt{
     position: relative;
-    top : 15px;
+    top : 45px;
     left: 18px;
     text-align: left;
     padding-top: 25px;
